@@ -1,0 +1,15 @@
+C:\Users\michael.lewellen\SudokuConsole\obj\Debug\net7.0\SudokuConsole.csproj.AssemblyReference.cache
+C:\Users\michael.lewellen\SudokuConsole\obj\Debug\net7.0\SudokuConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\michael.lewellen\SudokuConsole\obj\Debug\net7.0\SudokuConsole.AssemblyInfoInputs.cache
+C:\Users\michael.lewellen\SudokuConsole\obj\Debug\net7.0\SudokuConsole.AssemblyInfo.cs
+C:\Users\michael.lewellen\SudokuConsole\obj\Debug\net7.0\SudokuConsole.csproj.CoreCompileInputs.cache
+C:\Users\michael.lewellen\SudokuConsole\bin\Debug\net7.0\SudokuConsole.exe
+C:\Users\michael.lewellen\SudokuConsole\bin\Debug\net7.0\SudokuConsole.deps.json
+C:\Users\michael.lewellen\SudokuConsole\bin\Debug\net7.0\SudokuConsole.runtimeconfig.json
+C:\Users\michael.lewellen\SudokuConsole\bin\Debug\net7.0\SudokuConsole.dll
+C:\Users\michael.lewellen\SudokuConsole\bin\Debug\net7.0\SudokuConsole.pdb
+C:\Users\michael.lewellen\SudokuConsole\obj\Debug\net7.0\SudokuConsole.dll
+C:\Users\michael.lewellen\SudokuConsole\obj\Debug\net7.0\refint\SudokuConsole.dll
+C:\Users\michael.lewellen\SudokuConsole\obj\Debug\net7.0\SudokuConsole.pdb
+C:\Users\michael.lewellen\SudokuConsole\obj\Debug\net7.0\SudokuConsole.genruntimeconfig.cache
+C:\Users\michael.lewellen\SudokuConsole\obj\Debug\net7.0\ref\SudokuConsole.dll
