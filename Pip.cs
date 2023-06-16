@@ -1,7 +1,12 @@
 class Pip
 {
-    public int X {get;set;}
-    public int Y {get;set;}
+    public int GridX {get;set;}
+    public int GridY {get;set;}
+    public int PositionX {get;set;}
+    public int PositionY {get;set;}
+    public int Square {get;set;}
+    public int Row {get;set;}
+    public int Column {get;set;}
     public int Value {get;set;}
     public ConsoleColor Color {get;set;}
     public bool Visibility {get;set;}
@@ -16,27 +21,24 @@ class Pip
             Visibility = false;
         else
             Visibility = true;
-        X = x;
-        Y = y;
+        GridX = x;
+        GridY = y;
+        PositionX = 4*GridX + 5;
+        PositionY = 2*GridY + 2;
         Violate = false;
         Color = ConsoleColor.White;
     }
     public void DisplayPip(bool violate)
     {
-        Violate = violate;
-        if (Violate == true)
-            Color = ConsoleColor.Red;
-        Console.SetCursorPosition(X,Y);
-        Console.WriteLine("┌────┐");
-        Console.SetCursorPosition(X,Y+1);
-        Console.Write("│");
-        Console.ForegroundColor = Color;
-        Console.Write($" {Value}  ");        
-        Console.ForegroundColor = ConsoleColor.White;
-        Console.WriteLine("│");
-        Console.SetCursorPosition(X,Y+2);
-        Console.WriteLine("└────┘"); 
-        
-        
+        if(Value != 0)
+        {
+            Violate = violate;
+            if (Violate == true)
+                Color = ConsoleColor.Red;
+            Console.SetCursorPosition(PositionX,PositionY);
+            Console.ForegroundColor = Color;
+            Console.Write($"{Value}");        
+            Console.ForegroundColor = ConsoleColor.White;              
+        }
     }
 }
